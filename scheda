@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+
+//ES 1
+/*
+using namespace std;
+int N;
+int Q;
+int S;
+
+int main(){
+srand(time(NULL));
+cout << "Numeri casuali: ";
+cin >> N;
+for (int i=0;i<N;i++){
+	Q=rand()%10;
+	S=Q*Q;
+	cout << "Risultato: " << S << endl;
+}
+}
+
+
+//ES 2
+using namespace std;
+int MIN=100;
+int MAX=0;
+int L[100];
+int s;
+int d;
+int e;
+int f;
+
+int main(){
+srand(time(NULL));
+for (int i=0;i<10;i++){
+	L[i]=rand()%100;
+	cout << L[i] << ",";
+}
+
+cout << endl;
+for (int z=0;z<10;z++){
+	if(MIN>L[z]){
+		MIN=L[z];
+		e=z;
+	}
+}
+for (int z=0;z<10;z++){
+	if(MAX<L[z]){
+		MAX=L[z];
+		f=z;
+	}
+}
+s=MAX;
+d=MIN;
+L[f]=d;
+L[e]=s;
+
+for (int i=0;i<10;i++){
+	cout << L[i] << ",";
+}
+}
+*/
